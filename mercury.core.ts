@@ -2,21 +2,21 @@
 // If you're running in production, you'll need to rebuild Mercury Core to apply changes.
 
 export default {
-	Name: "Mercury",
+	Name: "Sapphire",
 	Domain: "mercs.dev",
 	DomainInsecure: "www.mercs.dev",
 	RCCServiceProxyURL: "http://localhost:64990",
 	LauncherURI: "mercury-launcher:",
-	CurrencySymbol: "屌",
+	CurrencySymbol: "R$",
 	Pages: ["Statistics", "Forum", "Groups"],
 
 	Database: {
-		AutoStart: true,
+		AutoStart: false,
 		Domain: "localhost:8000",
 	},
 
 	Economy: {
-		AutoStart: true,
+		AutoStart: false,
 	},
 
 	Orbiter: {
@@ -43,7 +43,7 @@ export default {
 	Branding: {
 		Favicon: "Branding/Favicon.svg",
 		Icon: "Branding/Icon.svg",
-		Tagline: "Revival tagline",
+		Tagline: "Bringing back the classics",
 		Descriptions: {
 			"Endless possibilites":
 				"Create or play your favourite games and customise your character with items on our catalog.",
@@ -79,7 +79,7 @@ export default {
 	Registration: {
 		Keys: {
 			Enabled: true,
-			Prefix: "mercurkey-",
+			Prefix: "sapphire-",
 		},
 		Emails: true,
 	},
